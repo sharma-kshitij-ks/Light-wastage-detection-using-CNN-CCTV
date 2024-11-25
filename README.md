@@ -40,7 +40,7 @@ Copy the YOLO folder and paste it inside the app folder of the cloned project.
 cd config
 ```
 
-5) We recommend you to use virtual environment
+5) Use virtual environment
 
 ```bash
   python -m venv env
@@ -63,7 +63,7 @@ Activate virtual environment
   pip install -r requirements.txt
 ```
 
-7) Add *Security Key* : Go to project's *settings.py* file and change the value of *SECURITY_KEY* variable to desired security key.
+7) Go to project's *settings.py* file and change the value of *SECURITY_KEY* variable to desired security key.
 You can generate a new secret key [here](https://djecrety.ir)
 
 8) Run Migrations
